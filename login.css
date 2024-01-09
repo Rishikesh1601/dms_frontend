@@ -441,3 +441,7 @@
     background-color: var(--bs-black);
     opacity: 0.8;
 }
+
+a{
+  text-decoration: none;
+}
