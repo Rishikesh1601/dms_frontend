@@ -533,3 +533,52 @@ li>a[aria-expanded=true]>span.menu-arrow {
 .active {
     color: #71b6f9 !important;
 }
+
+
+/* content page */
+.content-page {
+    margin-left: 240px;
+    overflow: hidden;
+    padding: 0 12px 65px 12px;
+    min-height: 80vh;
+    padding-top: 100px;
+}
+.invoice-card-row .invoice-card {
+    overflow: hidden;
+    position: relative;
+}
+.card {
+    margin-bottom: 1.875rem;
+    background-color: #fff;
+    transition: all .5s ease-in-out;
+    position: relative;
+    border: 0px solid transparent;
+    border-radius: 1.5rem;
+    box-shadow: 0px 5px 5px 0px rgba(82, 63, 105, 0.05);
+    height: calc(100% - 30px);
+    opacity: 0.8;
+}
+.invoice-card-row .invoice-card .card-body {
+    padding: 35px 30px 30px 30px;
+}
+.card-body {
+    padding: 1.875rem;
+}
+.invoice-card-row > div:nth-child(1) .invoice-card:after {
+    height: 120px;
+    width: 120px;
+    transform: rotate(40deg);
+    top: -35px;
+    right: -35px;
+    border-radius: 1rem;
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26ffffff', endColorstr='#00ffffff',GradientType=1 );
+}
+
+.iconofTitle{
+    color:white;
+    font-size: 40px;
+}
+
