@@ -514,3 +514,22 @@ a {
     background-color: rgba(155, 155, 155, 0.7); /* Color of the thumb */
     border-radius: 3px; /* Rounded corners for the thumb */
 }
+
+.menu-arrow:before {
+     /* Using Font Awesome class */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 16px;
+  content: "\f054"; /* Example icon - this will display a "caret-right" icon */
+}
+
+li>a[aria-expanded=true]>span.menu-arrow {
+    transform: rotate(90deg);
+}
+.menu-arrow:hover{
+    color: #71b6f9;
+}
+
+.active {
+    color: #71b6f9 !important;
+}
